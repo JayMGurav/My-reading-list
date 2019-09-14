@@ -1,0 +1,30 @@
+{
+  "name": "complete-intron-v5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-boost": "^0.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.4",
+    "mongoose": "^5.7.0",
+    "parcel-bundler": "^1.12.3",
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0",
+    "react-apollo": "^3.1.0",
+    "react-dom": "^16.9.0",
+    "recompose": "^0.30.0"
+  },
+  "scripts": {
+    "start": "concurrently \"parcel public/index.html\" \"node server.js\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "concurrently": "^4.1.2",
+    "prettier": "^1.18.2"
+  }
+}
